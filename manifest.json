@@ -1,0 +1,16 @@
+{
+  "name": "GitHub RTL",
+  "description": "Switch the github preview and editor of markdown files to rtl",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Switch direction to RTL"
+  },
+  "manifest_version": 2
+}
